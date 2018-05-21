@@ -1,87 +1,43 @@
 <!DOCTYPE html>
 <head>
     <title>About Me</title>
-    <style>
-    
-    body {
-        background: gainsboro;
-
-    }
-
-    header {
-        background-color: #ffffff;
-        color: #4aaaa5;
-        border: #cccccc;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin-bottom: 30px;
-    }
-
-    h2 {
-        color: #4aaaa5;
-    }  
-
-    p {
-        color: #777777;
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 2.0;
-        
-    }
-     
-    #maincontent {
-        background-color: #ffffff;
-        border: #dddddd none;
-        width: 960px;
-        margin: 0 auto;
-        padding: 25px 25px;
-   
-    }
-
-    img {
-        height: 200px;
-        width: 200px;
-        float: left;
-        margin-right: 25px;
-    }
-
-    footer {
-        text-align: center;
-        background-color: #666666;
-        border-top: 10px #4aaaa5 solid;
-        color:whitesmoke;
-        font-family: Arial, Helvetica, sans-serif; 
-        font-size: 10px;
-        padding-top: 40px;
-        padding-bottom: 5px;
-        text-align: bottom;
-        position: fixed;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-    } 
-    </style>
+    <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\melindar\Desktop\Code\week-1-html-css\hw-1\Basic-Portfolio\assets\css\style.css">
 </head>
 <body>
+    <header>
+        <div class="headercontainer">
+            <nav class="myname">Melinda Reyes</nav>
+            <nav class="rightlinks">
+                <ul>
+                <li><a href="index.html">About</a></li><!--
+                --><li><a href="portfolio.html">Portfolio</a></li><!--
+                --><li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div> 
+    </header>     
 
-    <header>Melinda Reyes</header>     
-
-    <div id="maincontent">
+    <section class="maincontent">
         <h2>About Me</h2>
-
-            <img src="C:\Users\melindar\Desktop\Code\week-1-html-css\hw-1\Basic-Portfolio\assets\images\Coder.jpg" alt="C:\Users\melindar\Desktop\Code\week-1-html-css\hw-1\Basic-Portfolio\assets\images\Coder.jpg">
+        <div class="subcontent">
+            <img id="img-profile" src="C:\Users\melindar\Desktop\Code\week-1-html-css\hw-1\Basic-Portfolio\assets\images\Coder.jpg" alt="C:\Users\melindar\Desktop\Code\week-1-html-css\hw-1\Basic-Portfolio\assets\images\Coder.jpg">
 
             <p>My name is Melinda Reyes, born and raised in Manila, Philippines. I'm an August baby, but supposed to be a July baby. My mother said I was not in a hurry to see the world, 
             so I hangout a few more weeks in her womb. Maybe this is the reason why I love sleeping in and often arrive late at events or meetings - I am kidding, but I do love sleeping in though.
             Zzzzz... 
             </p>
+            <br>
             <p>Growing up, I loved climbing trees in our front yard (but disliked falling, scraping my shin against a broken branch), running and playing tag with my friends (but disliked tripping and scraping my 
-                knees, elbows, and nose), riding my brand spanking new red BMX bike (which almost got stolen by a guy who tried to lure me to buy a parrot and asked to borrow my bike, so he can get the parrot), and
+                knees, elbows, and nose), riding my brand spanking new red BMX bike (which almost got stolen by a guy who tried to lure me to buy a parrot and asked to borrow my bike, so he can pick up the parrot), and
                 discovering new things (as I was a very curious kid), including going into the empty lot where I found an incandescent light bulb and just threw it over my shoulder to the street behind me and it went "Kaboom!".
-                That explosion scared the life out of me! Alas, I learned the danger of light bulb exploding.
+                That explosion scared the life out of me! Alas, I learned the danger of light bulb exploding by carelessly tossing it out to the street.
             </p>
+            <br>
             <p>
             Learning and discovering new things is part of growing up, and even as an adult, I still continue to do the same, such as learning how to code and I hope to be very good at it. Let's get coding!        
             </p>
-        </div>    
+    </section  >    
     <footer>Copyright @ 2018</footer>    
         
 </body>
